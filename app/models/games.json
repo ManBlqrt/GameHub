@@ -1,0 +1,26 @@
+[
+  {
+    "name": "justeprix",
+    "title": "Juste Prix",
+    "cssFile": "justeprix.css",
+    "jsFile": "justeprix.js"
+  },
+  {
+    "name": "diceroller",
+    "title": "Dice Roller",
+    "cssFile": "diceroller.css",
+    "jsFile": "diceroller.js"
+  },
+  {
+    "name": "pixelart",
+    "title": "Pixel Art",
+    "cssFile": "pixelart.css",
+    "jsFile": "pixelart.js"
+  },
+  {
+    "name": "simon",
+    "title": "Simon",
+    "cssFile": "simon.css",
+    "jsFile": "simon.js"
+  }
+]

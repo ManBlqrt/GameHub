@@ -1,0 +1,95 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#score {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+  padding-bottom: 2em;
+}
+
+.scoreElem {
+  color: #fff;
+  padding-top: 2em;
+  padding-left: 2em; 
+
+}
+.countNumber {
+  color: #272bad;
+  font-weight: 900;
+  border-radius: 5px;
+  padding-right: 1.5em;
+}
+.enteredNumber {
+  color: white;
+  background-color: #b70077;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.plusOuMoins {
+  font-weight: 900;
+}
+
+#bravo {
+  padding-bottom: 1em;
+  font-size: 1.1em;
+}
+
+.replayButton {
+  width: 100px;
+  padding: 0.5em;
+  margin-left: 2em;
+  border: 0;
+  border-radius: 0.5em;
+  background-color: #0612ac;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: 900;
+}
+
+.form {
+  background: #272bad;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 8em;
+}
+
+#game-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1em;
+  color: #fff;
+}
+
+label[for="number-input"] {
+  color: white;
+  font-weight: 700;
+}
+
+#number-input {
+  padding: 1em;
+  width: 15em;
+  border: 0;
+  font-size: 1em;
+  border: 2px solid #272bad;
+  border-radius: 0.5em 0 0 0.5em;
+  margin-left: 1em;
+}
+
+#number-btn {
+  padding: 1em;
+  border: 0;
+  border-radius: 0 0.5em 0.5em 0;
+  background-color: #9957e4;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+}

@@ -13,6 +13,8 @@ server.use(utilsModule.setLocals);
 
 server.use(router);
 
-server.listen(3001, () => {
-    console.log(`Le serveur est bien lancé à l'adresse : http://localhost:3001`);
+const port = process.env.PORT || 3000;
+server.listen(port, () => {
+    console.log(`🚀 Server listening at http://localhost:${port}`);
 });
+

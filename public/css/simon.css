@@ -1,54 +1,50 @@
 #game-head {
-  background: #272bad;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 8em;
-  text-align: center;
-  font-size: 1em;
+    background: #272bad;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 8em;
+    text-align: center;
+    font-size: 1em;
 }
 
 #message {
-  text-align: left;
-  margin-left: 1.5em;
-  color: #fff;
-  font-size: 1.3em;
-  font-weight: 900;
+    text-align: left;
+    margin-left: 1.5em;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 900;
 }
 
 #go {
-  padding: 1em;
-  border: 0;
-  border-radius: 0.5em;
-  background-color: #9957e4;
-  color: white;
-  cursor: pointer;
-  font-size: 1em;
-  margin: 0em 1.5em;
+    padding: 1em;
+    border: 0;
+    border-radius: 0.5em;
+    background-color: #9957e4;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0em 1.5em;
 }
 
-
 #playground {
-  margin: auto;
-  width: 30vw;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5em;
+    margin: auto;
+    width: 30vw;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
 }
 
 div.cell {
-  width: 10vw;
-  height: 10vw;
-  min-height: 50px;
-  min-width: 50px;
-  display: inline-block;
-  margin: 3px;
-  border: 0px solid #5256C9;
-  box-sizing: border-box;
-  transition: border ease .1s;
+    width: 10vw;
+    height: 10vw;
+    min-height: 50px;
+    min-width: 50px;
+    display: inline-block;
+    margin: 3px;
+    border: 0px solid #5256c9;
+    box-sizing: border-box;
+    transition: border ease 0.1s;
 }
-
-
-
